@@ -171,6 +171,7 @@
 「テクノロジーが現場に勇気を与える瞬間」を、今後も一緒に創っていきたいですね。
 
 ## H. システム用タグ（1-5スコア）
+- interview: 2
 - tone_score: 2
 - expertise_score: 3
 - energy_score: 3

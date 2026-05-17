@@ -166,6 +166,7 @@ NOT A HOTELはフラットな組織で、役割の垣根を超えて協力し合
 現在、NOT A HOTELのBAチームでは複数ポジションで採用強化中です。 カジュアル面談も受け付けておりますので、気軽にご連絡ください。
 
 ## H. システム用タグ（1-5スコア）
+- interview: 2
 - tone_score: 2
 - expertise_score: 4
 - energy_score: 3

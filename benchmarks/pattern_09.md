@@ -173,6 +173,7 @@ Goodpatch Blogの再始動
 この続きは後編で。
 
 ## H. システム用タグ（1-5スコア）
+- interview: 1
 - tone_score: 1
 - expertise_score: 4
 - energy_score: 5

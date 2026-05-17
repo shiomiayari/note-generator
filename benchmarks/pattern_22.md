@@ -203,6 +203,7 @@
 ---
 
 ## H. システム用タグ
+- interview: 1
 - tone_score: 4
 - expertise_score: 3
 - energy_score: 3

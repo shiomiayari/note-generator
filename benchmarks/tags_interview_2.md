@@ -65,6 +65,13 @@
 - energy_score: 1
 - focus_score: 2
 
+## pattern_15
+- title: LayerXのAI・LLM事業部はなぜ面白いのか？事業部長とCPOが語る、事業の「今」と「未来」
+- tone_score: 4
+- expertise_score: 4
+- energy_score: 4
+- focus_score: 2
+
 ## pattern_16
 - title: 代表・濵渦が明かす、これからのNOT A HOTELが目指すこと
 - tone_score: 4

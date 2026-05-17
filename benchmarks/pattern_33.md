@@ -101,3 +101,11 @@
 
 ／ 登場人物：Strategic Design group デザイナー 安藤和佳
 多摩美術大学でテキスタイルを学ぶ。より多くの媒体のデザインに触れたいと思い2022年に新卒でコンセントに入社。現在はStrategic Design groupにて、自身のデザイン領域を拡張中。
+
+---
+
+## H. システム用タグ
+- tone_score: 4
+- expertise_score: 2
+- energy_score: 3
+- focus_score: 2

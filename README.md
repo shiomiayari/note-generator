@@ -51,30 +51,30 @@ note-generator/
 
 ```mermaid
 sequenceDiagram
-    actor User as ユーザー
+    participant User as ユーザー
     participant AI as AIエージェント
-    participant Tags as 軽量タグページ<br/>(tags_interview_X)
-    participant Pattern as ベンチマーク本体<br/>(pattern_XX)
+    participant Tags as 軽量タグページ
+    participant Pattern as ベンチマーク本体
 
     Note over User,AI: 【第1段階：参考記事の選定と提案】
-    User->>AI: `auto_audition_writer.md`の内容を送信<br/>（パラメータ設定＋メモ入力）
-    AI->>Tags: 「インタビュー分類(1~3)」に該当する1枚のみを読み込み
-    Tags-->>AI: 各パターンのスコア情報（Tone, Expertise, Energy, Focus）
-    AI->>AI: スコアが最も近い2つのパターンを厳選<br/>（※ボリュームは選定基準から除外）
-    AI-->>User: 選定した2つのパターンと、その選定理由を提案
+    User->>AI: 設定とメモ入力内容を送信
+    AI->>Tags: インタビュー分類に該当する1枚のみを読み込み
+    Tags-->>AI: 各パターンのスコア情報（Tone等）
+    AI->>AI: スコアが最も近い2つのパターンを厳選
+    AI-->>User: 2つのパターンと選定理由を提案
 
-    Note over User,AI: ⚠️ ここでAIは動作を一時停止し、ユーザーの承認を待つ
+    Note over User,AI: ⚠️ AIは動作を一時停止し、承認を待つ
     
-    User->>AI: 提案内容を確認し、「OK」または「別のパターンにして」と指示
+    User->>AI: 提案内容を確認し承認
 
     Note over User,AI: 【第2段階：執筆】
-    AI->>Pattern: 承認された2つの `pattern_XX.md` の全文を読み込み
+    AI->>Pattern: 承認された2つのpattern_XX.mdの全文を読み込み
     Pattern-->>AI: 記事の具体的な構成、文体、アプローチ手法
-    AI->>AI: 共通フレーム（導入・WHY・HOW・FUTURE）に従い構成案を作成
-    AI->>AI: 指定された「ボリューム（文字数）」に従い、2パターンの本文同時執筆
+    AI->>AI: 共通フレームに従い構成案を作成
+    AI->>AI: ボリューム指定に従い、2パターンの本文同時執筆
     AI-->>User: 構成案と本文初稿を出力
     
-    User->>User: 出力された2つの記事を比較・微調整してnoteに投稿
+    User->>User: 記事を比較・微調整してnoteに投稿
 ```
 
 ---

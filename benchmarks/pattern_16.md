@@ -221,6 +221,7 @@ NOT A HOTELをやってきたなかで一番いい意思決定だったと確信
 そうした大きなチャレンジを続けていきたいですね。
 
 ## H. システム用タグ（1-5スコア）
+- interview: 2
 - tone_score: 4
 - expertise_score: 3
 - energy_score: 5

@@ -207,6 +207,7 @@ A. 深化／拡張は、役割の期待と本人の意思で決まる。
 ---
 
 ## H. システム用タグ
+- interview: 2
 - tone_score: 3
 - expertise_score: 2
 - energy_score: 2

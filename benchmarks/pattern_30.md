@@ -175,6 +175,7 @@ Goodpatchはデザインへの期待を背負う覚悟ができている。
 ---
 
 ## H. システム用タグ
+- interview: 1
 - tone_score: 2
 - expertise_score: 3
 - energy_score: 4

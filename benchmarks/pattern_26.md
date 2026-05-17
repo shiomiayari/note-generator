@@ -139,6 +139,7 @@ SmartHomeの究極は「指示すらしない世界観」
 ---
 
 ## H. システム用タグ
+- interview: 2
 - tone_score: 4
 - expertise_score: 3
 - energy_score: 4

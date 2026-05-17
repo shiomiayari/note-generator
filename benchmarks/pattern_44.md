@@ -136,7 +136,8 @@ BaseMeという就活アプリのDMに丸井グループからの連絡が来ま
 ---
 
 ## H. システム用タグ
-- **tone**: 3
-- **expertise**: 3
-- **energy**: 4
-- **focus**: 4
+- interview: 1
+- tone: 3
+- expertise: 3
+- energy: 4
+- focus: 4

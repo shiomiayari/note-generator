@@ -141,6 +141,7 @@ IR
 ※当記事は日本国内及び世界にあるNGO団体、YMCA（Young Men's Christian Association）とは無関係であり、問い合わせ先などお間違えないようお気を付けください。
 
 ## H. システム用タグ（1-5スコア）
+- interview: 2
 - tone_score: 2
 - expertise_score: 3
 - energy_score: 2

@@ -209,7 +209,8 @@
 ---
 
 ## H. システム用タグ
-- **tone**: 3
-- **expertise**: 4
-- **energy**: 4
-- **focus**: 4
+- interview: 2
+- tone: 3
+- expertise: 4
+- energy: 4
+- focus: 4

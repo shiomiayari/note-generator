@@ -199,3 +199,11 @@
 これからもデザインの力で世界を前進させていきます。
 
 株式会社グッドパッチ創業者　土屋尚史
+
+---
+
+## H. システム用タグ
+- tone_score: 4
+- expertise_score: 3
+- energy_score: 3
+- focus_score: 1

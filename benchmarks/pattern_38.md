@@ -137,3 +137,11 @@
 
 皆さんの活躍を心より期待しています。
 21世紀を代表する会社を一緒につくりましょう。
+
+---
+
+## H. システム用タグ
+- tone_score: 3
+- expertise_score: 3
+- energy_score: 4
+- focus_score: 1
